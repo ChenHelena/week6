@@ -1,0 +1,150 @@
+.timeline {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 9px;
+    height: 2px;
+    background-color: $gray-400;
+  }
+
+  &-pointer {
+    position: relative;
+    color: $gray-400;
+
+    p {
+      padding-top: 24px;
+      margin-bottom: 0;
+      line-height: 1.5;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 100px;
+      border: 1px solid $gray-400;
+      background-color: $gray-600;
+      transform: translateX(-50%);
+      z-index: 1;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 50%;
+    }
+
+    &.step-1::before {
+      content: '1';
+    }
+
+    &.step-2::before {
+      content: '2';
+    }
+
+    &.step-3::before {
+      content: '3';
+    }
+
+    &.active {
+      color: $primary;
+
+      &::before {
+        color: $white;
+        background-color: $primary;
+        border-color: $primary;
+      }
+    }
+  }
+}
+
+.signUp {
+  &-left {
+    position: relative;
+    left: 72px;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 12px 0 12px 12px;
+      border-color: transparent transparent transparent $gray-600;
+      right: 0;
+      top: 50%;
+    }
+  }
+
+  .datepicker-picker {
+    color: $black !important;
+  }
+
+
+  .row>* {
+    margin-top: 24px;
+  }
+
+  .banner-linear {
+    background: linear-gradient(to right, $secondary, $primary);
+    background-clip: button;
+    color: transparent;
+  }
+
+  &-payment {
+    padding-right: 32px;
+    padding-left: 114px;
+  }
+}
+
+@media(max-width:992px) {
+  .signUp {
+    &-left {
+      left: 0;
+
+      &::before {
+        border-width: 12px 12px 0 12px;
+        border-color: #2D2D2D transparent transparent transparent;
+        right: 50%;
+        top: 100%;
+      }
+    }
+
+    &-payment {
+      padding: 24px;
+    }
+
+    &-flexwrap {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+
+      li {
+        width: calc(50% - 0.25rem);
+
+      }
+    }
+
+    &-btn {
+      width: 100%;
+    }
+  }
+}
+
+
+//spacer
+.pb-06 {
+  padding-bottom: 6px;
+}
+
+.ps-114 {
+  padding-left: 114px;
+}
+
+.mb-44 {
+  margin-bottom: 44px;
+}

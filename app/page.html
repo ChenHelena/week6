@@ -1,0 +1,128 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="gray-800">
+  <div class="container pt-4 pb-3">
+    <div class="row justify-content-center">
+      <div class="col-md-7 col-9 timeline"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-5 col-3">
+        <div class="timeline-pointer step-1 text-center active">
+          <p>課程報名</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-6">
+        <div class="timeline-pointer step-2 text-center">
+          <p>信用卡付款</p>
+        </div>
+      </div>
+      <div class="col-md-5 col-3">
+        <div class="timeline-pointer step-3 text-center">
+          <p>付款成功</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-black signUp">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 signUp-left my-auto">
+        <div class="gray-600">
+          <div class="text-center pt-6">
+            <img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/teacher01.jpg"
+              alt="teacher01" height="100" width="100" class="mx-auto rounded-circle border border-primary border-3 ">
+            <h6 class="pt-4 mb-1">2022 Python 全攻略｜從入門到實務</h6>
+            <p class="text-primary">前端語言</p>
+          </div>
+          <p class="px-5 pb-6 pt-2">帶領無基礎、文組生、對網頁設計有興趣的人，進入網站工程領域的基礎課，將從最基礎的 HTML 語法出發。</p>
+        </div>
+      </div>
+      <div class="col-lg-8 mt-6 mb-md-9 mb-44">
+        <div class="gray-800">
+          <h4 class="text-center py-6">課程報名</h4>
+          <div class="signUp-payment">
+            
+            <h6 class="pb-06 mb-0 fw-bold">選擇付款方式</h6>
+            <ul class="d-flex signUp-flexwrap">
+              <li class="">
+                <button type="button" class="btn btn-outline-light py-3 px-5 me-md-3 me-2 rounded-3 fs-7 signUp-btn">信用卡付款</button>
+              </li>
+              <li class="">
+                <button type="button" class="btn btn-outline-light py-3 px-5 me-md-3 me-2 rounded-3 fs-7 signUp-btn">超商繳款</button>
+              </li>
+              <li class="">
+                <button type="button" class="btn btn-outline-light py-3 px-5 me-md-3 me-2 rounded-3 fs-7 signUp-btn">ATM轉帳</button>
+              </li>
+              <li class="">
+                <button type="button" class="btn btn-outline-light py-3 px-5 me-md-3 me-2 rounded-3 fs-7 signUp-btn">12期分期付款</button>
+              </li>
+            </ul>
+            
+            <h6 class="pt-5 pb-4 mb-0 fw-bold">訂單資訊</h6>
+
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">姓名</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="請輸入姓名" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">電話</label>
+                <input type="text" class="form-control" id="validationCustom02" value="請輸入電話號碼" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-12">
+                <label for="validationCustomUsername" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" value="請輸入Email" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom04" class="form-label">State</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">10堂50分鐘</option>
+                  <option>10堂50分鐘</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom05" class="form-label">想預約的日期</label>
+                <input type="text" class="form-control foo"  name="foo"id="validationCustom05" value="請選擇日期" required>
+                <div class="invalid-feedback">
+                  Please provide a valid zip.
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="validationCustom03" class="form-label">上課地點</label>
+                <input type="text" class="form-control" id="validationCustom03" value="請輸入上課地點" required>
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+            </form>
+            <div class="d-flex justify-content-between mt-4 pb-6">
+              <h6 class="font-mono">NT$1600</h6>
+              <button type="button" class="btn btn-primary py-2 px-6 text-white banner-linear border-0">前往結賬</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

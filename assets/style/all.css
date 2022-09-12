@@ -13003,13 +13003,6 @@ fieldset:disabled .btn {
   }
 }
 
-*,
-*:befor,
-*:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 body {
   color: #fff;
 }
@@ -13059,6 +13052,15 @@ p {
 
 .header .header-link a {
   padding-left: 50px;
+}
+
+.header .header-link .btn-hover:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
+  background: -o-linear-gradient(top, #09ACF5, #62DB54);
+  background: linear-gradient(to bottom, #09ACF5, #62DB54);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
 }
 
 .header .header-bar,
@@ -13117,6 +13119,10 @@ p {
   color: transparent;
 }
 
+.bg-banner .bg-gray-800 {
+  background-color: #1C1C1C;
+}
+
 @media (max-width: 767px) {
   .bg-banner {
     background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/bg_home_mobile.jpg);
@@ -13149,10 +13155,19 @@ p {
   border-radius: 12px;
 }
 
-.service-content a:hover {
+.service-content .btn-hover:hover {
   border-radius: 12px;
   border: 1px solid #62DB54;
   background-color: #202020;
+}
+
+.service-content .btn-hover:hover .material-symbols-outlined {
+  background: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
+  background: -o-linear-gradient(top, #09ACF5, #62DB54);
+  background: linear-gradient(to bottom, #09ACF5, #62DB54);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
 }
 
 .service-content .border-transparent {
@@ -13186,6 +13201,14 @@ p {
 .feedback .subtitle {
   padding-top: 80px;
   padding-bottom: 48px;
+}
+
+.process .border-white,
+.course .border-white,
+.share .border-white,
+.language .border-white,
+.feedback .border-white {
+  border: 1px solid #FFF;
 }
 
 @media (max-width: 992px) {
@@ -13258,6 +13281,10 @@ p {
   height: 615px;
 }
 
+.goal .bgGoal .text-hover {
+  opacity: .5;
+}
+
 .goal .bgGoal-img01 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 28, 28, 0.9))), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/info01.jpg);
   background-image: -o-linear-gradient(rgba(28, 28, 28, 0.9)), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/info01.jpg);
@@ -13290,12 +13317,22 @@ p {
   opacity: 1;
 }
 
+.goal .bgGoal-img01:hover .text-hover {
+  opacity: 1;
+  color: #fff;
+}
+
 .goal .bgGoal-img02:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0))), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/info02.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0)), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/info02.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0)), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/info02.jpg);
   color: #62DB54;
   opacity: 1;
+}
+
+.goal .bgGoal-img02:hover .text-hover {
+  opacity: 1;
+  color: #fff;
 }
 
 .goal .bgGoal-img03:hover {
@@ -13306,12 +13343,22 @@ p {
   opacity: 1;
 }
 
+.goal .bgGoal-img03:hover .text-hover {
+  opacity: 1;
+  color: #fff;
+}
+
 .goal .bgGoal-img04:hover {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0))), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/info04.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0)), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/info04.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0)), url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/info04.jpg);
   color: #62DB54;
   opacity: 1;
+}
+
+.goal .bgGoal-img04:hover .text-hover {
+  opacity: 1;
+  color: #fff;
 }
 
 .language-border {
@@ -13712,6 +13759,34 @@ p {
 .signUp-payment {
   padding-right: 32px;
   padding-left: 114px;
+}
+
+.signUp .bg-gray-800 {
+  background-color: #1C1C1C;
+}
+
+.signUp .text-gray-400 {
+  color: #C1C1C1;
+}
+
+.signUp ::-webkit-input-placeholder {
+  color: #C1C1C1;
+}
+
+.signUp ::-moz-placeholder {
+  color: #C1C1C1;
+}
+
+.signUp :-ms-input-placeholder {
+  color: #C1C1C1;
+}
+
+.signUp ::-ms-input-placeholder {
+  color: #C1C1C1;
+}
+
+.signUp ::placeholder {
+  color: #C1C1C1;
 }
 
 @media (max-width: 992px) {

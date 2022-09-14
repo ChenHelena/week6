@@ -1,0 +1,18 @@
+.course-info {
+  .btn-outline-light {
+    &:hover {
+      background-color: transparent;
+      border-color: $primary;
+      color: $primary;
+    }
+  }
+
+  .btn-hover {
+    &:hover {
+      background: linear-gradient(to right, $secondary, $primary);
+      background-clip: button;
+      background-color: transparent;
+      color: $white;
+    }
+  }
+}

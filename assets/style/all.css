@@ -13789,6 +13789,12 @@ p {
   color: #C1C1C1;
 }
 
+.signUp .btn-outline-light:hover {
+  background-color: transparent;
+  border-color: #62DB54;
+  color: #62DB54;
+}
+
 @media (max-width: 992px) {
   .signUp-left {
     left: 0;
@@ -13825,6 +13831,21 @@ p {
 
 .mb-44 {
   margin-bottom: 44px;
+}
+
+.course-info .btn-outline-light:hover {
+  background-color: transparent;
+  border-color: #62DB54;
+  color: #62DB54;
+}
+
+.course-info .btn-hover:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#09ACF5), to(#62DB54));
+  background: -o-linear-gradient(left, #09ACF5, #62DB54);
+  background: linear-gradient(to right, #09ACF5, #62DB54);
+  background-clip: button;
+  background-color: transparent;
+  color: #fff;
 }
 
 /*# sourceMappingURL=all.css.map */

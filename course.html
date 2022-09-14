@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Boostrap Index
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,1,0" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker-bs5.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="d-flex justify-content-between">
+          <a href="index.html"><img
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/logo.svg"
+              alt="logo"></img></a>
+          <ul class="d-flex align-items-center h6 mb-0">
+            <li class="header-link">
+              <a href="index.html" class="btn-hover">首頁</a>
+            </li>
+            <li class="header-link">
+              <a href="course.html"class="btn-hover">課程介紹</a>
+            </li>
+            <li class="header-link">
+              <a href="page.html"class="btn-hover">
+                <span class="material-icons pr-6">account_circle</span>登入</a>
+            </li>
+            <li class="header-bar">
+              <span class="material-icons" style="color: aqua;">drag_handle</span>
+            </li>
+          </ul>
+        </div>
+        <div class="header-rwd">
+          <ul class="d-flex flex-column align-items-center w-100 h6 px-0 mb-0">
+            <li class="w-100 text-center"><a href="#">首頁</a></li>
+            <li class="w-100 text-center"><a href="#">課程介紹</a></li>
+            <li class="w-100 text-center"><a href="#">
+                <span class="material-icons pe-6">account_circle</span>登入</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="header-border">
+    <div class="header-left"></div>
+    <div class="header-right"></div>
+  </div>
+
+  
+<div class="gray-800 course-info pb-8">
+  <div class="container">
+    <div class="swiper mySwiper pt-6">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide w-auto me-3">
+            <button type="button" class="btn btn-outline-light py-3 px-5 rounded-3 fs-7 signUp-btn">所有課程</button>
+        </div>
+        <div class="swiper-slide  w-auto me-3">
+            <button type="button" class="btn btn-outline-light py-3 px-5 rounded-3 fs-7 signUp-btn">行動應用開發</button>
+        </div>
+        <div class="swiper-slide  w-auto me-3">
+            <button type="button" class="btn btn-outline-light py-3 px-5 rounded-3 fs-7 signUp-btn">資料庫/資料科學</button>
+        </div>
+        <div class="swiper-slide  w-auto me-3">
+            <button type="button" class="btn btn-outline-light py-3 px-5 rounded-3 fs-7 signUp-btn">前端語言</button>
+        </div>
+        <div class="swiper-slide  w-auto me-3">
+          <button type="button" class="btn btn-outline-light py-3 px-5 rounded-3 fs-7 signUp-btn">後端語言</button>
+        </div>
+        <div class="swiper-slide  w-auto me-3">
+          <button type="button" class="btn btn-outline-light py-3 px-5 rounded-3 fs-7 signUp-btn">作業系統與伺服器</button>
+        </div>
+      </div>
+    </div>
+    <div class="card mt-6 mb-5 px-lg-0 px-4">
+      <div class="row g-0">
+        <div class="col-lg-2 d-flex  mt-6 justify-content-center">
+          <div class="mx-auto text-center">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/teacher01.jpg" class="img-fluid rounded-circle d-flex justify-content-center" width="100" height="100" alt="teacher01">
+            <p>Belinda</p>
+          </div>
+        </div>
+        <div class="col-lg-7 mt-6">
+          <div>
+            <h4 class="card-title mb-1">基礎前端 - HTML</h4>
+            <p class="card-text text-primary mb-2">前端語言</p>
+            <p class="card-text">帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子，輕鬆進入網頁架設的世界，完成一個基礎的網頁架設。</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-center">
+            <p class="card-title mb-0 mt-6">50分鐘</p>
+            <p class="card-text fs-2 mb-3">NT$1600</p>
+            <div class="d-lg-grid gap-2 col-md-6  mx-auto mb-6">
+              <a href="#" class="btn btn-outline-light btn-hover">課程介紹</a>
+              <a href="#" class="btn btn-outline-light btn-hover">立即預約</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mt-6 mb-5  px-lg-0 px-4">
+      <div class="row g-0">
+        <div class="col-lg-2 d-flex  mt-6 justify-content-center">
+          <div class="mx-auto text-center">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/teacher02.jpg" class="img-fluid rounded-circle d-flex justify-content-center" width="100" height="100" alt="teacher02">
+            <p>Guava</p>
+          </div>
+        </div>
+        <div class="col-lg-7 mt-6">
+          <div>
+            <h4 class="card-title mb-1">2022 Python 全攻略｜從入門到實務</h4>
+            <p class="card-text text-primary mb-2">後端語言</p>
+            <p class="card-text">Python支援多種程式設計範式，包括函數式、指令式、反射式、結構化和物件導向程式設計，它擁有動態型別系統和垃圾回收功能，能夠自動管理記憶體使用，本堂課帶你無痛入門，開發簡單的應用！</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-center">
+            <p class="card-title mb-0 mt-6">50分鐘</p>
+            <p class="card-text fs-2 mb-3">NT$1600</p>
+            <div class="d-lg-grid  gap-2 w-50 mx-auto mb-6">
+              <a href="#" class="btn btn-outline-light btn-hover">課程介紹</a>
+              <a href="#" class="btn btn-outline-light btn-hover">立即預約</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-5  px-lg-0 px-4">
+      <div class="row g-0">
+        <div class="col-lg-2 d-flex  mt-6 justify-content-center">
+          <div class="mx-auto text-center">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/teacher03.jpg" class="img-fluid rounded-circle d-flex justify-content-center" width="100" height="100" alt="teacher03">
+            <p>Belinda</p>
+          </div>
+        </div>
+        <div class="col-lg-7 mt-6">
+          <div>
+            <h4 class="card-title mb-1">活用 Line Bot ｜APP 開發到上架完整實戰攻略</h4>
+            <p class="card-text text-primary mb-2">前端語言</p>
+            <p class="card-text">帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子，輕鬆進入網頁架設的世界，完成一個基礎的網頁架設。</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-center">
+            <p class="card-title mb-0 mt-6">50分鐘</p>
+            <p class="card-text fs-2 mb-3">NT$1600</p>
+            <div class="d-lg-grid  gap-2 w-50 mx-auto mb-6">
+              <a href="#" class="btn btn-outline-light btn-hover">課程介紹</a>
+              <a href="#" class="btn btn-outline-light btn-hover">立即預約</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card  px-lg-0 px-4">
+      <div class="row g-0">
+        <div class="col-lg-2 d-flex  mt-6 justify-content-center">
+          <div class="mx-auto text-center">
+            <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week6-202207/teacher04.jpg" class="img-fluid rounded-circle d-flex justify-content-center" width="100" height="100" alt="teacher04">
+            <p>Joe</p>
+          </div>
+        </div>
+        <div class="col-lg-7 mt-6">
+          <div>
+            <h4 class="card-title mb-1">Linux 零基礎七天入門｜入門到實務</h4>
+            <p class="card-text text-primary mb-2">作業系統與伺服器</p>
+            <p class="card-text">Linux是一種自由和開放原始碼的類UNIX作業系統，作業系統中包含了許多使用者圖形介面和其他實用工具。課程會一步一步帶著你走，讓你能夠從頭開始學習程式語言的基本語法</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="text-center">
+            <p class="card-title mb-0 mt-6">50分鐘</p>
+            <p class="card-text fs-2 mb-3">NT$1600</p>
+            <div class="d-lg-grid  gap-2 w-50 mx-auto mb-6">
+              <a href="#" class="btn btn-outline-light btn-hover">課程介紹</a>
+              <a href="#" class="btn btn-outline-light btn-hover">立即預約</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p class="font-mono text-center p-4">Coding Home © 2022 All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/locales/zh-TW.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 5,
+        direction: getDirection(),
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+
+      });
+
+      function getDirection() {
+        var windowWidth = window.innerWidth;
+        var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+        return direction;
+      }
+
+      var swiper = new Swiper(".mySwiper2", {
+        effect: 'fade',
+         fadeEffect: {
+          crossFade: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+
+          clickable: true,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+      });
+
+
+      const elem = document.querySelector('input[name="foo"]');
+      const datepicker = new Datepicker(elem, {
+        // ...options
+        language: 'zh-TW',
+        buttonClass: 'btn',
+      }); 
+    </script>
+</body>
+
+</html>
